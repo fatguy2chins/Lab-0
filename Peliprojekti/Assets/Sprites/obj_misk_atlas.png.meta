@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: dd8a0424e82413c45b7258a599826c23
+timeCreated: 1469350375
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: rip
+    21300002: "p\xF6yt\xE4"
+    21300004: kurpitsa
+    21300006: lihaa
+    21300008: liha1
+    21300010: liha2
+    21300012: liha3
+    21300014: kasvi1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: rip
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 16}
+        - {x: -16, y: 14}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 12}
+        - {x: 12, y: 16}
+    - name: "p\xF6yt\xE4"
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 486
+        width: 26
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: kurpitsa
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 834
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: lihaa
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 362
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 16}
+        - {x: -23, y: 9}
+        - {x: -23, y: -12}
+        - {x: -13, y: -16}
+        - {x: 24, y: -16}
+        - {x: 24, y: 5}
+        - {x: 19, y: 16}
+    - name: liha1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 130
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liha2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 227
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: liha3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 190
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: kasvi1
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 11
+        width: 34
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 27.5}
+        - {x: -17, y: 23.5}
+        - {x: -17, y: -27.5}
+        - {x: 10, y: -27.5}
+        - {x: 17, y: -21.5}
+        - {x: 17, y: 16.5}
+        - {x: 8, y: 27.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

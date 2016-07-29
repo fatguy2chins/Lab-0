@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: d95b5a245339d60429774b51d9de152e
+timeCreated: 1469347940
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: pillar_0
+    21300002: wall_0
+    21300004: verho_0
+    21300006: verho_1
+    21300008: verho_2
+    21300010: verho_3
+    21300012: muuri_up
+    21300014: muuri_harja
+    21300016: torni
+    21300018: prop1
+    21300020: prop2
+    21300022: prop3
+    21300024: prop4
+    21300026: prop5
+    21300028: door
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: pillar_0
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 48}
+        - {x: -16, y: 44}
+        - {x: -16, y: -44}
+        - {x: -12, y: -48}
+        - {x: 14, y: -48}
+        - {x: 16, y: -46}
+        - {x: 16, y: 45}
+        - {x: 12, y: 48}
+    - name: wall_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 256
+        width: 82
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -41, y: 16}
+        - {x: -41, y: -16}
+        - {x: 41, y: -16}
+        - {x: 41, y: 16}
+    - name: verho_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 207
+        width: 30
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: verho_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 208
+        width: 30
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: verho_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 203
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: verho_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 203
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: muuri_up
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 30}
+        - {x: -32, y: -30}
+        - {x: 32, y: -30}
+        - {x: 32, y: 23}
+        - {x: 29, y: 30}
+    - name: muuri_harja
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 289
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: torni
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 288
+        width: 116
+        height: 224
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: 112}
+        - {x: -58, y: -112}
+        - {x: 58, y: -112}
+        - {x: 58, y: 112}
+    - name: prop1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: prop2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -14}
+        - {x: -10, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+        - {x: 7, y: 16}
+    - name: prop3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 16}
+    - name: prop4
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 265
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: prop5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 297
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: door
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 320
+        width: 95
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: -10}
+        - {x: 9.5, y: -10}
+        - {x: 14.5, y: -7}
+        - {x: 18.5, y: -10}
+        - {x: 19.5, y: -10}
+        - {x: 23.5, y: -6}
+        - {x: 23.5, y: -5}
+        - {x: 29.5, y: -48}
+        - {x: 47.5, y: -48}
+        - {x: 47.5, y: 48}
+        - {x: -47.5, y: 48}
+        - {x: -47.5, y: -48}
+        - {x: -30.5, y: -48}
+        - {x: 0.5, y: -11}
+        - {x: 4.5, y: -4}
+        - {x: 4.5, y: -6}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

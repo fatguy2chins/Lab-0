@@ -8,12 +8,23 @@ public class CameraFollow : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z);
+        
+        if (player != null)
+        {
+            transform.position = new Vector3(player.position.x + offset.x, player.position.y + offset.y, offset.z);
+        } else
+        {
+            if(GameObject.FindGameObjectWithTag("Player").transform != null) {
+                player = GameObject.FindGameObjectWithTag("Player").transform;
+            }
+            
+        }
+        
     }
 }

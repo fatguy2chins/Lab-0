@@ -4,9 +4,8 @@ using System.Collections;
 public class WeaponScript : MonoBehaviour {
 
     public GameObject shotPrefab;
-
-    public float shootingRange = 0.25f;
-
+    public float shootingRange;
+    public AudioClip shotsound;
     private float shootCooldown;
     public float shotspeed;
 
@@ -49,12 +48,20 @@ public class WeaponScript : MonoBehaviour {
 
 
             //create new shot
-            
-            
+
+            AudioSource audioSource = gameObject.AddComponent<AudioSource>();
+            if(shotsound!=null)
+            {
+                audioSource.clip = shotsound;
+                audioSource.volume=0.3f;
+                audioSource.Play();
+            }
+
+
             GameObject shot = (GameObject)Instantiate(shotPrefab, transform.position,transform.rotation);
             Rigidbody2D body = shot.GetComponent<Rigidbody2D>();
             body.AddRelativeForce(new Vector2(50*shotspeed,0));
-
+            
             //assign position
             //shotTransform.position = transform.position;
 
