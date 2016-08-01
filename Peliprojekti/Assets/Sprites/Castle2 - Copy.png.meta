@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: dba5191c76367854a89d36789f49e043
+timeCreated: 1469433734
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Castle2 - Copy_0
+    21300002: Castle2 - Copy_1
+    21300004: Castle2 - Copy_2
+    21300006: Castle2 - Copy_3
+    21300008: Castle2 - Copy_4
+    21300010: Castle2 - Copy_5
+    21300012: Castle2 - Copy_6
+    21300014: Castle2 - Copy_7
+    21300016: Castle2 - Copy_8
+    21300018: Castle2 - Copy_9
+    21300020: Castle2 - Copy_10
+    21300022: Castle2 - Copy_11
+    21300024: Castle2 - Copy_12
+    21300026: Castle2 - Copy_13
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Castle2 - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 207
+        width: 30
+        height: 72
+      alignment: 9
+      pivot: {x: 0.40435243, y: 0.45923615}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Castle2 - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 196
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Castle2 - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 257
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Castle2 - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 162
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 31.5}
+        - {x: -31.5, y: -31.5}
+        - {x: 31.5, y: -31.5}
+        - {x: 31.5, y: 31.5}
+    - name: Castle2 - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 16}
+        - {x: -32, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: 16}
+    - name: Castle2 - Copy_5
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 1
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: -26.5}
+        - {x: 30, y: -26.5}
+        - {x: 30, y: 11.5}
+        - {x: 26, y: 26.5}
+        - {x: -19, y: 26.5}
+        - {x: -30, y: 6.5}
+    - name: Castle2 - Copy_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 16}
+        - {x: -16, y: 9}
+        - {x: -16, y: -14}
+        - {x: -10, y: -16}
+        - {x: 14, y: -16}
+        - {x: 16, y: -15}
+        - {x: 16, y: 14}
+        - {x: 7, y: 16}
+    - name: Castle2 - Copy_7
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 33
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Castle2 - Copy_8
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1
+        width: 30
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Castle2 - Copy_9
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1
+        width: 29
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Castle2 - Copy_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 48}
+        - {x: -16, y: -48}
+        - {x: 16, y: -48}
+        - {x: 16, y: 48}
+    - name: Castle2 - Copy_11
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 63
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: -23.5}
+        - {x: 31, y: 5.5}
+        - {x: 8, y: 32.5}
+        - {x: -12, y: 32.5}
+        - {x: -31, y: 4.5}
+        - {x: -31, y: -22.5}
+        - {x: -18, y: -32.5}
+        - {x: 29, y: -32.5}
+        - {x: 28, y: -29.5}
+        - {x: 20, y: -29.5}
+        - {x: 22, y: -29.5}
+    - name: Castle2 - Copy_12
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 31.5}
+        - {x: -26, y: 11.5}
+        - {x: -26, y: -31.5}
+        - {x: 16, y: -31.5}
+        - {x: 20, y: -23.5}
+        - {x: 26, y: 15.5}
+        - {x: 26, y: 31.5}
+    - name: Castle2 - Copy_13
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 419
+        width: 115
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -57.5, y: 46.5}
+        - {x: -57.5, y: -44.5}
+        - {x: -55.5, y: -46.5}
+        - {x: 56.5, y: -46.5}
+        - {x: 57.5, y: -44.5}
+        - {x: 57.5, y: 46.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

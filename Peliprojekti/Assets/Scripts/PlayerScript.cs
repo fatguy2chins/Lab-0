@@ -98,7 +98,7 @@ public class PlayerScript : MonoBehaviour
             gui.GetComponent<GUI_Script>().EnableRespawn();
             gui.GetComponent<GUI_Script>().EnableHealth();
             //GameObject.FindGameObjectWithTag("restart_btn").SetActive(true);
-            
+            Time.timeScale = 0.0f;
             Destroy(gameObject);
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             //
@@ -128,11 +128,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         //-----------------esc handler---------------
-        if (Input.GetKeyDown("escape"))
-        {
 
-            
-        }
 
 
     }//update

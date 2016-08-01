@@ -4,12 +4,17 @@ using System.Collections;
 public class doorScript : MonoBehaviour {
     public GameObject door;
     public GameObject cover;
+    public GameObject music;
+    public GameObject bossmusic;
     private int counter;
     private bool started;
-	// Use this for initialization
-	void Start () {
+    public bool bossdoor;
+    private GameObject gui;
+    // Use this for initialization
+    void Start () {
         counter = 0;
-	}
+        gui = GameObject.FindGameObjectWithTag("guisystem");
+    }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
@@ -44,14 +49,31 @@ public class doorScript : MonoBehaviour {
     {
         door.SetActive(true);
         started = true;
-        print("door closed");
+        if(bossdoor)
+        {
+            music.SetActive(false);
+            bossmusic.SetActive(true);
+        }
+        
     }
 
     void DestroyDoor()
     {
         Destroy(door);
         Destroy(cover);
-        print("door destroyed");
+        if(bossdoor)
+        {
+            gui.GetComponent<GUI_Script>().UpdateAnnouncer("");
+
+            music.SetActive(true);
+            bossmusic.SetActive(false);
+
+
+        } else
+        {
+            gui.GetComponent<GUI_Script>().UpdateAnnouncer("Secret area is now open!");
+        }
+        
         started = false;
     }
 }

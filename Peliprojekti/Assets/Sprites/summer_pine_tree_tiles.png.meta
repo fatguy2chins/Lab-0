@@ -1,0 +1,329 @@
+fileFormatVersion: 2
+guid: 23eeb74acb367e648ad5214c1586ebc2
+timeCreated: 1469089634
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: summer_pine_tree_tiles_0
+    21300002: summer_pine_tree_tiles_1
+    21300004: summer_pine_tree_tiles_2
+    21300006: summer_pine_tree_tiles_3
+    21300008: summer_pine_tree_tiles_4
+    21300010: summer_pine_tree_tiles_5
+    21300012: summer_pine_tree_tiles_6
+    21300014: summer_pine_tree_tiles_7
+    21300016: summer_pine_tree_tiles_8
+    21300018: summer_pine_tree_tiles_9
+    21300020: summer_pine_tree_tiles_10
+    21300022: summer_pine_tree_tiles_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: summer_pine_tree_tiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 192
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -94.5}
+        - {x: 96, y: 77.5}
+        - {x: 79, y: 94.5}
+        - {x: -69, y: 94.5}
+        - {x: -96, y: 70.5}
+        - {x: -96, y: -94.5}
+        - {x: 13, y: -94.5}
+        - {x: 35, y: -81.5}
+        - {x: 59, y: -94.5}
+      - - {x: 29, y: -68.5}
+        - {x: 22, y: -80.5}
+        - {x: 22, y: -94.5}
+        - {x: 42, y: -94.5}
+        - {x: 43, y: -93.5}
+        - {x: 43, y: -81.5}
+        - {x: 36, y: -68.5}
+      - - {x: -26, y: 4.5}
+        - {x: -28, y: 2.5}
+        - {x: -28, y: 0.5}
+        - {x: -26, y: -1.5}
+        - {x: -24, y: -1.5}
+        - {x: -22, y: 0.5}
+        - {x: -22, y: 2.5}
+        - {x: -24, y: 4.5}
+      - - {x: -12, y: 5.5}
+        - {x: -14, y: 3.5}
+        - {x: -14, y: 1.5}
+        - {x: -12, y: -0.5}
+        - {x: -10, y: -0.5}
+        - {x: -8, y: 1.5}
+        - {x: -8, y: 3.5}
+        - {x: -10, y: 5.5}
+      - - {x: -19, y: 15.5}
+        - {x: -23, y: 10.5}
+        - {x: -23, y: 5.5}
+        - {x: -20, y: 4.5}
+        - {x: -12, y: 4.5}
+        - {x: -10, y: 7.5}
+        - {x: -10, y: 9.5}
+        - {x: -15, y: 15.5}
+      - - {x: -9, y: 16.5}
+        - {x: -11, y: 14.5}
+        - {x: -11, y: 12.5}
+        - {x: -9, y: 10.5}
+        - {x: -7, y: 10.5}
+        - {x: -5, y: 12.5}
+        - {x: -5, y: 14.5}
+        - {x: -7, y: 16.5}
+      - - {x: -28, y: 17.5}
+        - {x: -30, y: 15.5}
+        - {x: -30, y: 13.5}
+        - {x: -28, y: 11.5}
+        - {x: -25, y: 11.5}
+        - {x: -23, y: 13.5}
+        - {x: -23, y: 15.5}
+        - {x: -25, y: 17.5}
+      - - {x: -21, y: 21.5}
+        - {x: -23, y: 19.5}
+        - {x: -23, y: 17.5}
+        - {x: -21, y: 15.5}
+        - {x: -15, y: 15.5}
+        - {x: -13, y: 17.5}
+        - {x: -13, y: 19.5}
+        - {x: -15, y: 21.5}
+      - - {x: -16, y: 30.5}
+        - {x: -18, y: 28.5}
+        - {x: -18, y: 26.5}
+        - {x: -16, y: 24.5}
+        - {x: -11, y: 24.5}
+        - {x: -9, y: 26.5}
+        - {x: -9, y: 28.5}
+        - {x: -11, y: 30.5}
+    - name: summer_pine_tree_tiles_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 96
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 60}
+        - {x: -48, y: 25}
+        - {x: -48, y: -30}
+        - {x: -29, y: -60}
+        - {x: 48, y: -60}
+        - {x: 48, y: 49}
+        - {x: 38, y: 60}
+    - name: summer_pine_tree_tiles_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 195
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -30.5}
+        - {x: 32, y: -30.5}
+        - {x: 32, y: 3.5}
+        - {x: 27, y: 24.5}
+        - {x: 11, y: 30.5}
+        - {x: -8, y: 30.5}
+        - {x: -32, y: 9.5}
+    - name: summer_pine_tree_tiles_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 114
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 31.5}
+        - {x: -32, y: 20.5}
+        - {x: -32, y: -30.5}
+        - {x: -28, y: -31.5}
+        - {x: 32, y: -31.5}
+        - {x: 32, y: 26.5}
+        - {x: 28, y: 31.5}
+    - name: summer_pine_tree_tiles_4
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 35
+        width: 96
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 39}
+        - {x: -48, y: 17}
+        - {x: -48, y: -23}
+        - {x: -39, y: -39}
+        - {x: 41, y: -39}
+        - {x: 48, y: -26}
+        - {x: 48, y: 19}
+        - {x: 27, y: 39}
+    - name: summer_pine_tree_tiles_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 35
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -16, y: 12}
+        - {x: -16, y: -23}
+        - {x: 16, y: -23}
+        - {x: 16, y: 14}
+        - {x: 7, y: 23}
+    - name: summer_pine_tree_tiles_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23}
+        - {x: -16, y: 10}
+        - {x: -16, y: -22}
+        - {x: -14, y: -23}
+        - {x: 16, y: -23}
+        - {x: 16, y: 18}
+        - {x: 8, y: 23}
+    - name: summer_pine_tree_tiles_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 18
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23}
+        - {x: -16, y: 10}
+        - {x: -16, y: -22}
+        - {x: -14, y: -23}
+        - {x: 16, y: -23}
+        - {x: 16, y: 18}
+        - {x: 8, y: 23}
+    - name: summer_pine_tree_tiles_8
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 23}
+        - {x: -16, y: 10}
+        - {x: -16, y: -22}
+        - {x: -14, y: -23}
+        - {x: 16, y: -23}
+        - {x: 16, y: 18}
+        - {x: 8, y: 23}
+    - name: summer_pine_tree_tiles_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 23
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: summer_pine_tree_tiles_10
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 19
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: summer_pine_tree_tiles_11
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

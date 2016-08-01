@@ -9,6 +9,7 @@ public class GUI_Script : MonoBehaviour {
     public GameObject player;
     public Text anno;
     public Button res;
+    public GameObject endbox;
     // Use this for initialization
     void Start () {
         
@@ -35,6 +36,7 @@ public class GUI_Script : MonoBehaviour {
     {
         print("level restarted");
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Time.timeScale = 1.0f;
     }
     public void EnableRespawn()
     {
@@ -55,5 +57,9 @@ public class GUI_Script : MonoBehaviour {
     public void EnableHealth()
     {
         GameObject.Find("hpText").SetActive(false);
+    }
+    public void showEndBox()
+    {
+        endbox.SetActive(true);
     }
 }

@@ -18,8 +18,10 @@ public class EnemyTest : MonoBehaviour {
     public float HPDropChance;
     public GameObject healthObjectPrefab;
     public GameObject keyObjectPrefab;
+    public GameObject spoonObjectPrefab;
     private float rand;
     public bool DropsKeyOnDeath;
+    public bool DropsSpoonOnDeath;
     // Use this for initialization
     void Start () {
         
@@ -83,6 +85,10 @@ public class EnemyTest : MonoBehaviour {
             {
                 Instantiate(keyObjectPrefab, transform.position, transform.rotation);
             }
+            if (DropsSpoonOnDeath)
+            {
+                Instantiate(spoonObjectPrefab, transform.position, transform.rotation);
+            }
             Destroy(gameObject);
 
         }
@@ -103,4 +109,13 @@ public class EnemyTest : MonoBehaviour {
     {
         health = health - damage;
     }
+    public void SetFrozenSpeed()
+    {
+
+        speed = 0.5f;
+        GetComponent<SpriteRenderer>().color = Color.cyan;
+        
+    }
+
+
 }

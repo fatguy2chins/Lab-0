@@ -40,7 +40,7 @@ public class UIManager : MonoBehaviour
     // Use this for initialization
     public void StartGame()
     {
-        SceneManager.LoadScene("Level1_Woods");
+        SceneManager.LoadScene("0_cutscene");
     }
 
     //Exit the game

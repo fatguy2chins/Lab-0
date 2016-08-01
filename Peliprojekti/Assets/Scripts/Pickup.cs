@@ -1,10 +1,13 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Pickup : MonoBehaviour {
     public bool isHealth;
     public int HealAmount;
     public bool isKeyToNextLevel;
+    public bool isSpoon;
+
 	// Use this for initialization
 	void Start () {
 	    
@@ -29,7 +32,10 @@ public class Pickup : MonoBehaviour {
             {
                 collider.GetComponent<PlayerScript>().GiveKey();
             }
-            
+            if(isSpoon)
+            {
+                SceneManager.LoadScene("0_endcutscene");
+            }
             Destroy(gameObject);
         }
     }

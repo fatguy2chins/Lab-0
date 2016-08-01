@@ -26,7 +26,7 @@ void FixedUpdate()
         {
             if (counter > 200)
             {
-                SceneManager.LoadScene(nextLevel);
+                
             }
             counter++;
         }
@@ -46,23 +46,22 @@ void OnTriggerEnter2D(Collider2D collider)
 
                 if (collider.GetComponent<PlayerScript>().HasKey() == true)
                 {
-                    gui.GetComponent<GUI_Script>().UpdateAnnouncer("LEVEL COMPLETE");
-                    StartCounter = true;
-
-
-
+                    
+                    gui.GetComponent<GUI_Script>().showEndBox();
+                    Destroy(GameObject.FindGameObjectWithTag("Player"));
 
                 }
                 else
                 {
-                    print("you dont have a key!");
+                    gui.GetComponent<GUI_Script>().UpdateAnnouncer("You need a key!");
                 }
 
 
             } else
             {
-                gui.GetComponent<GUI_Script>().UpdateAnnouncer("LEVEL COMPLETE");
-                StartCounter = true;
+                
+                gui.GetComponent<GUI_Script>().showEndBox();
+                Destroy(GameObject.FindGameObjectWithTag("Player"));
             }
         
 
@@ -70,6 +69,10 @@ void OnTriggerEnter2D(Collider2D collider)
 
 }//ontriggerenter
 
+    public void startNextLevel()
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
 
 
 }

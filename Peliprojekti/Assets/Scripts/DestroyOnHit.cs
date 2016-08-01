@@ -6,6 +6,7 @@ public class DestroyOnHit : MonoBehaviour {
     public GameObject expPrefab;
     public int damage;
     public bool destroyOnhit;
+    public bool freezeOnHit;
 	// Use this for initialization
 	void Start () {
 	
@@ -32,6 +33,12 @@ public class DestroyOnHit : MonoBehaviour {
 
         if(otherCollider.CompareTag("enemy")){
             otherCollider.GetComponent<EnemyTest>().Damage(damage);
+
+            if (freezeOnHit)
+            {
+                otherCollider.GetComponent<EnemyTest>().SetFrozenSpeed();
+
+            }
         }
 
         if(destroyOnhit)
@@ -44,6 +51,8 @@ public class DestroyOnHit : MonoBehaviour {
         {
             Instantiate(expPrefab, transform.position, transform.rotation);
         }
+
+        
         
 
         
